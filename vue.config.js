@@ -14,7 +14,7 @@ module.exports = defineConfig({
       '/api': {
         target: 'https://chocolanet-a9c27126050c.herokuapp.com/',
         changeOrigin: true,
-        secure: false,
+        secure: true,
       },
     },
   }
