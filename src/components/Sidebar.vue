@@ -20,15 +20,15 @@
                       <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
                           data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
                           <i class="bi bi-person-circle"></i>
-                          <span>Mon contenu</span>
+                          <span>Mon Contenu</span>
                       </a>
                       <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                           <li class="sidebar-item">
-                              <a href="feed" class="sidebar-link">Mes publications</a>
+                              <a href="feed" class="sidebar-link">Mes Publications</a>
                           </li>
                           <li class="sidebar-item">
                               <a href="statistiques" class="sidebar-link">
-                                  <span>Mes statistiques</span>
+                                  <span>Mes Statistiques</span>
                               </a>
                           </li>
                       </ul>
@@ -36,7 +36,7 @@
                   <li class="sidebar-item">
                       <a href="pages" class="sidebar-link">
                           <i class="bi bi-flag-fill"></i>
-                          <span>Pages</span>
+                          <span>Mes Pages</span>
                       </a>
                   </li>
                   <div v-if="userRole === 'admin'">
