@@ -10,13 +10,13 @@ module.exports = defineConfig({
       key: fs.readFileSync(path.resolve(__dirname, 'server.key')),
       cert: fs.readFileSync(path.resolve(__dirname, 'server.cert')),
     },
-    proxy: {
-      '/api': {
-        target: 'https://localhost:8081', // Adresse de votre backend Express.js
-        changeOrigin: true,
-        secure: false,
-      },
-    },
+    // proxy: {
+    //   '/api': {
+    //     target: 'https://chocolanet-a9c27126050c.herokuapp.com/',
+    //     changeOrigin: true,
+    //     secure: false,
+    //   },
+    // },
   }
 })
 
