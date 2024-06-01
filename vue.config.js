@@ -12,7 +12,7 @@ module.exports = defineConfig({
     },
     proxy: {
       '/api': {
-        target: 'https://localhost:8081/',
+        target: 'https://chocolanet-a9c27126050c.herokuapp.com/',
         changeOrigin: true,
         secure: false,
       },
