@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/api/*"
+  to = "https://chocolanet-a9c27126050c.herokuapp.com/:splat"
   status = 200
